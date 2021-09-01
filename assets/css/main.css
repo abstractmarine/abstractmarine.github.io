@@ -192,9 +192,13 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #a0a0a1;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 15pt;
-		font-weight: 300;
+		/*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+		font-family: "Playfair Display SC", Helvetica, sans-serif;
+
+		/*font-family: "IBM Plex Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+
+		font-size: 20pt;
+		font-weight: 200;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
 	}
@@ -212,7 +216,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		color: #34a58e;
 		text-decoration: none;
 	}
@@ -224,7 +228,25 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 100;
+		letter-spacing: 0.2em;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+		/*font-size: 18pt;*/
+		font-size: 1.4em;
+		/*font-family: "Playfair Display SC" !important;*/
+	}
+	weak {
+		color: #ffffff;
+		font-weight: 200;
+		letter-spacing: 0.3em;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+		/*font-size: 18pt;*/
+		font-family: "Shadows Into Light Two" !important;
+		 font-stretch: ultra-expanded !important;
+		font-size: 0.8em;
+		padding-left: 10px;
 	}
 
 	em, i {
@@ -237,10 +259,12 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 100;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
+		font-size: 0.8em;
+
 		text-transform: uppercase;
 	}
 
@@ -320,6 +344,7 @@ input, select, textarea {
 		background: #34363b;
 		border: solid 1px #36383c;
 		font-family: "Courier New", monospace;
+
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -379,7 +404,7 @@ input, select, textarea {
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
-		box-shadow: inset 0 0 0 2px #36383c;
+		/*box-shadow: inset 0 0 0 2px #36383c;*/
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
@@ -400,8 +425,9 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #34a58e;
-			color: #34a58e !important;
+			/*box-shadow: inset 0 0 0 2px #34a58e;*/
+			color: #fff !important;
+			opacity:0.75;
 		}
 
 			input[type="submit"]:hover:active,
