@@ -144,7 +144,9 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-		font-family: "Shadows Into Light Two" !important;
+		/*font-family: "Shadows Into Light Two" !important; */
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+
 
 }
 
@@ -648,6 +650,10 @@ progress {
   height: auto;
 }
 
+.image2 {
+  /*position: absolute;*/
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -658,7 +664,7 @@ progress {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #89bdce;
+  background-color: #292929;
 }
 .text {
   color: white;
