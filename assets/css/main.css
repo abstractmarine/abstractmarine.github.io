@@ -191,7 +191,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #a0a0a1;
+		color: #caccd1;
 		/*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
 		font-family: "Playfair Display SC", Helvetica, sans-serif;
 
@@ -223,7 +223,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #34a58e !important;
+			color: #404040 !important;
 		}
 
 	strong, b {
@@ -1072,7 +1072,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: rgba(36, 38, 41, 0.975);
+		background: rgba(108, 133, 180, 0.95);
 		/*bottom: 4em;*/
 		top: 4em;
 		left: 0;
